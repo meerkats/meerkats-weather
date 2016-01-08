@@ -34,6 +34,9 @@
   },
   "homepage": "https://github.com/meerkats/meerkats-weather#readme",
   "dependencies": {
+    "lodash.findkey": "^3.0.1",
+    "lodash.findlastkey": "^3.0.1",
+    "lodash.values": "^3.0.0",
     "minimist": "^1.2.0",
     "openweathermap": "^1.0.0"
   }
