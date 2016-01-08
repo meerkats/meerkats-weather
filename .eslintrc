@@ -1,0 +1,7 @@
+{
+  "extends": "meerkats",
+  "rules": {
+    // Using es6, so we need strict available.
+    "strict": [2, "global"]
+  }
+}
