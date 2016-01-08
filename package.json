@@ -34,6 +34,7 @@
   },
   "homepage": "https://github.com/meerkats/meerkats-weather#readme",
   "dependencies": {
+    "minimist": "^1.2.0",
     "openweathermap": "^1.0.0"
   }
 }

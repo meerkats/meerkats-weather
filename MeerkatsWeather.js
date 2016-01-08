@@ -1,6 +1,7 @@
-const meerkatsWeather = require('./index');
+const katifyWeather = require('./lib/KatifyWeather');
+const weather = require('./index');
 
-meerkatsWeather()
-  .then((data) => {
-    console.log(data);
-  });
+module.exports = () => {
+  return weather()
+    .then(katifyWeather);
+};
