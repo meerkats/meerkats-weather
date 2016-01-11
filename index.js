@@ -7,7 +7,8 @@ const openWeather = require('./lib/OpenWeatherMap');
  */
 module.exports = (katify) => {
   if (katify) {
-    return katifyWeather();
+    return openWeather.getWeather()
+      .then(katifyWeather);
   }
   return openWeather.getWeather();
 };
