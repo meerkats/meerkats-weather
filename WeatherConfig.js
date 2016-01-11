@@ -2,19 +2,27 @@ const getValues = require('lodash.values');
 
 const temperature = {
   freezing: 10,
-  cold: 20,
-  perfect: 25,
+  cold: 15,
+  perfect: 20,
   hot: 30,
-  tooHot: 35,
   melting: 40,
   dying: 50
 };
 const humidity = {
   dry: 30,
-  perfect: 50,
+  perfect: 40,
   moist: 70,
   swimming: 90
 };
+const weather = {
+  thunderstorm: 2,
+  drizzle: 3,
+  rain: 5,
+  clear: 800,
+  clouds: 8,
+  hail: 906
+};
+const componentImportance = ['temperature', 'weather', 'humidity'];
 const humidityValues = getValues(humidity);
 const temperatureValues = getValues(temperature);
 const humidityMin = Math.min.apply(null, humidityValues);
@@ -28,5 +36,7 @@ module.exports = {
   temperatureMax,
   humidity,
   humidityMin,
-  humidityMax
+  humidityMax,
+  weatherCodes: weather,
+  componentImportance
 };
