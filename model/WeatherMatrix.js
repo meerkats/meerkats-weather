@@ -31,7 +31,7 @@ const helpers = {
     });
   },
   /**
-  * Returns a string which represents the atmospheric weather (rain/clouds/clear.thunderstorm etc)
+  * Returns a string which represents the atmospheric weather (rain/clouds/clear/thunderstorm etc)
   * if an general match is found.
   * @return {String} Text ready for the katification matrix
   */
