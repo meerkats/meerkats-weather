@@ -13,7 +13,7 @@ module.exports = {
     'temperature': 'hot',
     'humidity': 'dry',
     'weather': '*',
-    'katism': 'It\'s a dry heat'
+    'katism': 'It&rsquo;s a dry heat'
   }, {
     'temperature': 'hot',
     'humidity': 'moist',
@@ -28,36 +28,36 @@ module.exports = {
     'temperature': 'perfect',
     'humidity': '*',
     'weather': 'rain',
-    'katism': 'Where\'s an umbrella when you need one?',
+    'katism': 'Where&rsquo;s an umbrella when you need one?',
   }, {
     'temperature': 'perfect',
     'humidity': '*',
     'weather': 'thunderstorm',
-    'katism': 'Where\'s an umbrella when you need one?',
+    'katism': 'Where&rsquo;s an umbrella when you need one?',
   }, {
     'temperature': 'perfect',
     'humidity': '*',
     'weather': 'drizzle',
-    'katism': 'Where\'s an umbrella when you need one?',
+    'katism': 'Where&rsquo;s an umbrella when you need one?',
   }, {
     'temperature': 'cold',
     'humidity': 'dry',
     'weather': '*',
-    'katism': 'It\'s freeeeeeeezing!'
+    'katism': 'It&rsquo;s freeeeeeeezing!'
   }, {
     'temperature': 'cold',
     'humidity': '*',
     'weather': 'rain',
-    'katism': 'Let\'s stay inside until it passes/'
+    'katism': 'Let&rsquo;s stay inside until it passes.'
   }, {
     'temperature': 'cold',
     'humidity': '*',
     'weather': 'thunderstorm',
-    'katism': 'Let\'s stay inside until it passes/'
+    'katism': 'Let&rsquo;s stay inside until it passes.'
   }, {
     'temperature': 'cold',
     'humidity': '*',
     'weather': 'drizzle',
-    'katism': 'Let\'s stay inside until it passes/'
+    'katism': 'Let&rsquo;s stay inside until it passes.'
   }]
 };

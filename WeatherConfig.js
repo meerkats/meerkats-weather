@@ -22,7 +22,7 @@ const weather = {
   clouds: 8,
   hail: 906
 };
-const componentImportance = ['temperature', 'weather', 'humidity'];
+const componentOrder = ['temperature', 'weather', 'humidity'];
 const humidityValues = getValues(humidity);
 const temperatureValues = getValues(temperature);
 const humidityMin = Math.min.apply(null, humidityValues);

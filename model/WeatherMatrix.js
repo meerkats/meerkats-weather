@@ -6,14 +6,14 @@ const weatherKatisms = require('../WeatherKatisms');
 const weatherConfig = require('../WeatherConfig');
 const helpers = {
   /**
-   * Trys to return a weather Katism that is as close to possible to the
+   * Tries to return a weather Katism that is as close to possible to the
    * given weather matric
    * @returns {String} A clever/witty katism about the weather
    */
   findKatism(weatherMatrix) {
     // Get the order of importance for weather components
     let reduceList = weatherKatisms.katisms;
-    weatherConfig.componentImportance.forEach((component) => {
+    weatherConfig.componentOrder.forEach((component) => {
       reduceList = filter(reduceList, (katismObject) => {
         return katismObject[component] === weatherMatrix[component] || katismObject[component] === '*';
       });
@@ -21,7 +21,7 @@ const helpers = {
     return reduceList.length ? reduceList[0].katism : null;
   },
    /**
-  * Returns a string which represents the atmospheric weather (rain/clouds/clear.thunderstorm etc)
+  * Returns a string which represents the atmospheric weather (rain/clouds/clear/thunderstorm etc)
   * if an exact match it found
   * @return {String} Text ready for the katification matrix
   */
