@@ -1,4 +1,5 @@
 'use strict';
+
 const katifyWeather = require('./lib/KatifyWeather');
 const openWeather = require('./lib/OpenWeatherMap');
 /**
