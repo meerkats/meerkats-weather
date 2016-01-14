@@ -38,5 +38,5 @@ module.exports = {
   humidityMin,
   humidityMax,
   weatherCodes: weather,
-  componentImportance
+  componentOrder
 };
