@@ -1,6 +1,6 @@
 {
   "name": "meerkats-weather",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A katty way to tell what it's like outside the warren",
   "main": "index.js",
   "scripts": {
