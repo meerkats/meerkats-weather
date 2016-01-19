@@ -8,7 +8,7 @@ A small module to query some basic data from the open weather maps API
 
 ## Usage
 
-# Command Line
+## Command Line
   To output the result directly to the console
   ```
     node ConsoleWeather.js --appId={appId} --cityId={cityId} --katify
@@ -17,7 +17,7 @@ A small module to query some basic data from the open weather maps API
   ```
     node ConsoleWeather.js --appId={appId} --cityId={cityId}
   ```
-# Code
+## Code
   ```
     const appId = 'xxxxxxxxxxxxxxx';
     const cityId = 'xxxxxxxxxx';
@@ -41,7 +41,7 @@ A small module to query some basic data from the open weather maps API
         console.log(output);
       });
   ```
-  
+
 # Author
 
 This repo is created and maintained by MEERKATS in PERTH, WESTERN AUSTRALIA.
