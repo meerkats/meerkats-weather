@@ -1,8 +1,12 @@
 const argv = require('minimist')(process.argv.slice(2));
-const weather = require('./index');
+const weather = require('./Weather');
+const katifyWeather = require('./MeerkatsWeather');
 
-weather(argv.katify)
+const weatherFunc = argv.katify ? katifyWeather : weather;
+
+weatherFunc(argv.appId, argv.cityId, argv.katify)
   .then((data) => {
-    console.log(data);
+    if (data) {
+      console.log(data);
+    }
   });
-

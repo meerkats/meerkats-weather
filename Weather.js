@@ -1,8 +1,8 @@
 const weather = require('./index');
 
-module.exports = () => {
-  return weather()
-    .then((weatherData) => {
-      return weatherData;
+module.exports = (appId, cityId) => {
+  return weather(appId, cityId)
+    .catch((err) => {
+      console.error(err);
     });
 };
