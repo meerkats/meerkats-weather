@@ -8,22 +8,22 @@ A small module to query some basic data from the open weather maps API
 
 ## Usage
 
-## Command Line
+### Command Line
   To output the result directly to the console
-  ```
+  ```javascript
     node ConsoleWeather.js --appId={appId} --cityId={cityId} --katify
   ```
   or
-  ```
+  ```javascript
     node ConsoleWeather.js --appId={appId} --cityId={cityId}
   ```
-## Code
-  ```
+### Code
+  ```javascript
     const appId = 'xxxxxxxxxxxxxxx';
     const cityId = 'xxxxxxxxxx';
 
     // Get some katified weather
-    const katifiedWeathe = require('meerkats-weather/MeerkatsWeather');
+    const katifiedWeather = require('meerkats-weather/MeerkatsWeather');
     katifiedWeather(appId, cityId)
       .then((output) => {
         console.log(output);
