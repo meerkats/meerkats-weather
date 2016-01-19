@@ -5,8 +5,9 @@ const openWeather = require('./lib/OpenWeatherMap');
 const weatherDefaults = require('./OpenWeatherAPIConfig');
 /**
  * Returns a bunch of weather info and some kat language.
- * param {string} OpenWeatherMaps App Key
- * params {string} Id of the city to query
+ * @param {string} OpenWeatherMaps App Key
+ * @param {string} Id of the city to query
+ * @param {bool} Shoudl we Katify the weather?
  * @return {Object} JSON response with weather details
  */
 module.exports = (appId, cityId, katify) => {
