@@ -1,10 +1,14 @@
 const getValues = require('lodash.values');
 
 const temperature = {
+  frozensolid: 0,
+  frozen: 5,
   freezing: 10,
   cold: 15,
   perfect: 20,
+  heatingup: 25,
   hot: 30,
+  superhot: 35,
   melting: 40,
   dying: 50
 };

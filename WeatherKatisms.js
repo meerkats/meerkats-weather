@@ -1,5 +1,50 @@
 module.exports = {
   'katisms': [{
+    'temperature': 'frozensolid',
+    'humidity': '*',
+    'weather': '*',
+    'katism': 'Let’s break the ice.'
+  }, {
+    'temperature': 'frozen',
+    'humidity': '*',
+    'weather': '*',
+    'katism': 'It’s freeeezing.'
+  }, {
+    'temperature': 'freezing',
+    'humidity': '*',
+    'weather': '*',
+    'katism': 'Too cold to get out of bed.'
+  }, {
+    'temperature': 'cold',
+    'humidity': '*',
+    'weather': '*',
+    'katism': ' Let’s stay inside until this passes.'
+  }, {
+    'temperature': 'perfect',
+    'humidity': '*',
+    'weather': '*',
+    'katism': 'You should’ve brought that jumper.'
+  }, {
+    'temperature': 'heatingup',
+    'humidity': '*',
+    'weather': '*',
+    'katism': 'Another day in paradise.'
+  }, {
+    'temperature': 'hot',
+    'humidity': '*',
+    'weather': '*',
+    'katism': 'Think my face is burning.'
+  }, {
+    'temperature': 'superhot',
+    'humidity': '*',
+    'weather': '*',
+    'katism': 'The floor is lava.'
+  }, {
+    'temperature': 'melting',
+    'humidity': '*',
+    'weather': '*',
+    'katism': 'ARRrrRrggGhhhHhHhH!'
+  }, {
     'temperature': 'perfect',
     'humidity': 'dry',
     'weather': '*',
